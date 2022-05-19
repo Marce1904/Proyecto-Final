@@ -1,0 +1,80 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .Cuerpo30{
+    color: black;
+    height: 700px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(78, 153, 206);
+    color: rgb(13, 13, 14);
+    font-family: 'Open Sans', sans-serif;
+    border: 0.1px solid rgb(197, 197, 197);
+    width: 90%;
+    
+}
+.columna12{
+    width: 60%;
+    height: 500px;
+    margin-left: 2%;
+    display: inline-flex;
+}
+
+.columna22{
+    width: 900px;
+    height: 500px;
+    margin-left: 5%;
+    margin-left: 5%;
+
+    
+}
+
+
+
+.img24{
+    width: 573px;
+    height: 410px;
+    margin-right: 5%;
+    box-shadow: 0 0 5px rgb(214, 206, 206);
+}
+
+.columna3{
+    background-color: aliceblue;
+    border: 0.1px solid rgb(197, 197, 197);
+    color: black;    
+    width: 100%;
+    height: auto;
+   
+}
+
+.texto{
+    font-size: medium;
+    color: aliceblue;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+.texto10:hover{
+    width: 400px;
+    background-color: rgb(90, 132, 141);
+    color: aliceblue;
+}
+
+.tamaño{
+    width: 450px;
+    height: 20px;
+}
+.tamaño1{
+    width: 450px;
+    height: 80px;
+}
+
+.columna26{
+    width: 900px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 5px;    
+}

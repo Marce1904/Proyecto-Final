@@ -1,0 +1,82 @@
+.Cuerpo{
+
+    height: 1220px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(78, 153, 206);
+    color: rgb(13, 13, 14);
+    font-family: 'Open Sans', sans-serif;
+    border: 0.5px solid rgb(196, 196, 196);
+    width: 90%;
+    box-shadow: 0 0 5px black;
+}
+
+.texto{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto1{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: aliceblue;
+}
+
+.texto3{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.texto2{
+    background-color: #91d8d6;
+    position: relative;
+    width: 385px;
+    height: 385px;
+    border: 0.5px solid rgb(148, 142, 142);
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(79, 78, 78);
+
+}
+
+
+/* Estoy pegando la animación de parte Sucursal */
+
+
+.texto4 {
+    
+    width:350px;
+    height: 350px;
+    padding:2em 1em 1em 1em;               
+    text-align: center;    
+    transition: all 3s ease;
+    margin-left: -40px;   
+    margin-top: -30px;   
+}
+
+.texto4 img {
+    display:block;  
+    transform: scale(0.9);
+    transition: all 2s ease; 
+}
+
+
+.texto4:hover {
+    background-color: rgba(200,200,200,.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.texto4:hover img {
+transform: scale(1);     
+}  
+
+.texto4:hover h2 {
+    color:#c9a833;
+    text-align: center;         
+}
