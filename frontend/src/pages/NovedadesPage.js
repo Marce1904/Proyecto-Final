@@ -4,6 +4,7 @@ import NovedadItem from "../components/novedades/NovedadItem";
 
 
 import "../styles/components/pages/NovedadesPage.css"
+
 const NovedadesPage =  (props) => {
    const [loading, setLoading] = useState (false);
    const [novedades, setNovedades] = useState ([]);
@@ -19,8 +20,10 @@ const NovedadesPage =  (props) => {
        
    }, []);
 
+
+
     return (
-        <section className="holder">
+        <section className="holder1">
             <h2>Novedades</h2>
             {loading ? (
                 <p>Cargando...</p>

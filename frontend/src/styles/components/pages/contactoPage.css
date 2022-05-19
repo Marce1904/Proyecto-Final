@@ -9,27 +9,26 @@ body{
     height: 700px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: rgb(78, 153, 206);
+    background-color: #faecd6;
     color: rgb(13, 13, 14);
     font-family: 'Open Sans', sans-serif;
-    border: 0.1px solid rgb(197, 197, 197);
+    border: 0.1px solid rgb(255, 255, 255);
     width: 90%;
     
 }
 .columna12{
     width: 60%;
-    height: 500px;
+    height: 450px;
     margin-left: 2%;
     display: inline-flex;
 }
 
 .columna22{
     width: 900px;
-    height: 500px;
-    margin-left: 5%;
-    margin-left: 5%;
-
-    
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 1%;
+        
 }
 
 
@@ -42,7 +41,7 @@ body{
 }
 
 .columna3{
-    background-color: aliceblue;
+    background-color: #b04b4b;
     border: 0.1px solid rgb(197, 197, 197);
     color: black;    
     width: 100%;
@@ -52,15 +51,22 @@ body{
 
 .texto{
     font-size: medium;
-    color: aliceblue;
+    color: rgb(113, 66, 66);
     margin-left: 15%;
     margin-top: 15px;
 }
 
+.texto10{
+    width: 400px;
+    color: #e0a4b8;
+    margin-left: 5%;
+}
+
 .texto10:hover{
     width: 400px;
-    background-color: rgb(90, 132, 141);
+    background-color: #e0a4b8;
     color: aliceblue;
+    margin-left: 5%;
 }
 
 .tamaño{
@@ -77,4 +83,18 @@ body{
     height: 500px;
     margin-left: 5%;
     margin-top: 5px;    
+}
+
+.nombre{
+    width: 450px;
+    height: 35px;
+}
+.nombre1{
+    width: 450px;
+    height: 55px;
+}
+
+.box11{
+    color:rgb(113, 66, 66) ;
+    
 }

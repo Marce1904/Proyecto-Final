@@ -1,5 +1,5 @@
 nav {
-    background-color:  #6da9ed;
+    background-color:  #faecd6;
     margin-bottom: 2em;
 }
 nav div ul {
@@ -15,7 +15,7 @@ nav div ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #714242;
     text-decoration: none;
     text-align: center;
     padding: 0.2em 0.4em;
@@ -24,9 +24,9 @@ nav ul li a{
 }
 
 nav div ul a :hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: hsl(37, 77%, 91%);
 }
 
 nav div ul a.activo {
-    background: #4c76a5;
+    background: #ffffff;
 }

@@ -46,26 +46,27 @@ const ContactoPage =  (props) => {
         <form className="formulario" action="/contacto" method="post" onSubmit={handleSubmit} >
             <h2 class="box11">Consultanos </h2>
             <p>
-                <label for="">Nombre</label>
-                <input name="nombre" type="text" value={formData.nombre}  onChange={handleChange} />
+                <label class="box11" for="">Nombre</label>
+                <input class="nombre" name="nombre" type="text" value={formData.nombre}  onChange={handleChange} />
             </p>
             <p>
-                <label  for="">e - Mail</label>
-                <input  name="email" type="email" value={formData.email}  onChange={handleChange}/>
+                <label class="box11"  for="">e - Mail</label>
+                <input class="nombre" name="email" type="email" value={formData.email}  onChange={handleChange}/>
             </p>
             <p>
-                <label  for="">Teléfono</label>
-                <input name="telefono" type="text" value={formData.telefono}  onChange={handleChange}/>
+                <label class="box11"  for="">Teléfono</label>
+                <input class="nombre" name="telefono" type="text" value={formData.telefono}  onChange={handleChange}/>
             </p>
             <p>
-                <label for="">Comentario</label>
-                <input name="mensaje" type="text" value={formData.mensaje}  onChange={handleChange}/>
+                <label class="box11" for="">Comentario</label>
+                <input class="nombre1" name="mensaje" type="text" value={formData.mensaje}  onChange={handleChange}/>
             </p>
             
-            <p className="centrar" ><input type="submit" value="Enviar"></input></p>            
+            <p className="centrar" ><input type="submit" value="Enviar"></input></p>
+            {sending ? <p>Enviando...</p> : null}
+            {msg ? <p>{msg}</p>: null}            
         </form>
-        {sending ? <p>Enviando...</p> : null}
-        {msg ? <p>{msg}</p>: null}
+
             
         
         

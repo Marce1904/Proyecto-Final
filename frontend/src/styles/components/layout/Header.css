@@ -1,16 +1,38 @@
 header{
-    background-color: skyblue;
-    padding: 1em 0;
+    background-color: #f5f4f492;
+    padding: 1.2em 0;
+    height: 162px;
 
 }
 
 header h1{
-    color: white;
-    font-size: 2.5em;
+    
+    color: #e0a4b8;
+    font-size: 3.5em;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 90;
+    display: inline-block;
+    position: relative;
+    bottom: 1.9em;
+    margin: 0;
+    margin-bottom: 0%;
+    margin-left: 25%;
+}
+
+header h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.0em;
+    font-style: italic;
+    font-weight: 90;
     display: inline-block;
     position: relative;
     bottom: .8em;
-    margin: 0;
+    margin-top: -18%;
+    margin-left: 60%;
 }
+
+#logo{
+    margin-top: 0%;
+    display: inline-block;
+}
+
